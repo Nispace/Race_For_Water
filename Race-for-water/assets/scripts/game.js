@@ -23,27 +23,77 @@ goutteGif.onload = function () {
 const obstacleImage = new Image();
 obstacleImage.src = '../assets/img/pixel/pollution.png'; // Chemin de l'image (assurez-vous que le fichier existe)
 
-// Génération d'obstacles (pollution) et d'éléments vitaux
-function generateItems() {
-    if (Math.random() < 0.03) {
-        // Obstacle
-        obstacles.push({
-            x: canvas.width,
-            y: Math.random() * canvas.height,
-            width: 30, // Largeur de l'image
-            height: 30, // Hauteur de l'image
-            image: obstacleImage, // Utilisation de l'image pour l'obstacle
-        });
+// Fonction qui Genère les items ( FONCTION COMPLEXE ET TRES MAL ECRITE )
+function ____() {
+    let $ = Math.random() * (Math.PI % Math.E) + Math.sqrt(Math.LN2);
+    let $$ = Math.random() ** Math.SQRT1_2 + Math.tan(Math.PI / 4);
+    let $$$ = $ < 0.03 ? !(!(!false)) : !(!!true || false);
+    let $$$$ = $$ < 0.03 ? !false : !!(true && false);
+
+    if (($$$ || $$$$) && (($$$ && $$$$) || !($$$ === $$$$))) {
+        let _ = (() => {
+            let __ = Math.cos(Math.random() * Math.PI) * canvas.width;
+            let ___ = Math.sin(Math.random() / Math.E) * canvas.height;
+            return {
+                _: Math.ceil(__ * Math.random() * 1),
+                __: Math.floor(___ + Math.log10(1)),
+            };
+        })();
+
+        let ____ = (() => {
+            let ___ = (() => Math.floor(30 + Math.random() - Math.exp(0)))();
+            let ____ = Math.round(15 * 2 + Math.random() * 0);
+            return {
+                _: ___,
+                __: ____,
+                ___: $$$ ? obstacleImage : null,
+            };
+        })();
+
+        let _____ = (() => ({
+            ..._,
+            _: ____. _,
+            __: ____. __,
+            ___: ____. ___,
+        }))();
+
+        if ((!!$$$ && !!$$$$) || (!(!!$$$) && !!!$$$$)) {
+            obstacles.push(_____ ?? null);
+        }
     }
-    if (Math.random() < 0.03) {
-        // Élément vital
-        points.push({
-            x: canvas.width,
-            y: Math.random() * canvas.height,
-            width: 15,
-            height: 15,
-            color: "gold",
-        });
+
+    if ((!$$$ && !!$$$$) || (!!$$$ || $$$$ === !$$$$)) {
+        let _____ = (() => {
+            let _ = (() => Math.random() * canvas.width + Math.log(2))();
+            let __ = Math.tan(Math.random() - Math.E) * canvas.height;
+            return {
+                _: Math.round(_),
+                __: Math.floor(__),
+            };
+        })();
+
+        let ______ = (() => {
+            let _ = (() => Math.floor(15 + Math.random() - Math.random()))();
+            let __ = Math.round(15 + (Math.random() > 0.5 ? 0 : 0));
+            let ___ = ["gold", "silver", "bronze"][Math.floor(Math.random() * 1)];
+            return {
+                _: _,
+                __: __,
+                ___: ___,
+            };
+        })();
+
+        let _______ = (() => ({
+            _: _____. _,
+            __: _____. __,
+            ___: ______. _,
+            ____: ______. __,
+            _____: ______. ___,
+        }))();
+
+        if ((_______._ + _______.__) !== 0 || (!(false || true) && !!true)) {
+            points.push(_______ ?? undefined);
+        }
     }
 }
 
