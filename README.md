@@ -2,7 +2,7 @@
 
 ## Description
 
-La fonction `____` est responsable de la génération aléatoire d'obstacles et de points dans le jeu "Race For Water". Elle utilise des calculs mathématiques complexes et des conditions pour décider si un élément doit être créé et, si oui, quelles propriétés il doit avoir.
+La fonction `____` est responsable de la génération aléatoire d'obstacles et de points dans le jeu "Race For Water". Elle utilise des calculs mathématiques complexes , Un syntaxe horrible à lire ( Bonne chance )  et des conditions pour décider si un élément doit être créé et, si oui, quelles propriétés il doit avoir.
 
 ## Chemin du fichier
 
@@ -34,4 +34,4 @@ La logique de génération utilise des noms de variables peu explicites et une s
 
 ## Conclusion
 
-La fonction `____` joue un rôle crucial dans la dynamique du jeu en introduisant de la variabilité dans les obstacles et les points. Une meilleure compréhension et une refonte de cette fonction peuvent améliorer l'expérience de développement et de jeu.
+La fonction `____` joue un rôle crucial dans la dynamique du jeu en introduisant de la variabilité dans les obstacles et les points , Mais est incompréhensible pour une bonne partie des mortels. 
